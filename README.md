@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Star Wars Memory Game
+Match up the 8 Star Wars characters to win. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents:
 
-## Available Scripts
+Topic | Link to section
+------------ | -------------
+What is this project for | [Go to section](#what-is-this-project-for)
+How to install the project locally | [Go to section](#how-to-install-the-project-locally)
+How to use the project | [Go to section](#how-to-use-the-project)
+Project credits | [Go to section](#project-credits)
 
-In the project directory, you can run:
+## What is this project for:
 
-### `npm start`
+* This project allows for a user to match 8 Star Wars characters to win the game. 12 incorrect guesses and the game is lost.
+* People who are looking for ideas on how to create a memory game will be able to use this repo to see how the implementationwas done. 
+* The goal of this project was to create a simple game using React to understand state and components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## How to install the project locally:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* The project can be cloned and downloaded onto your PC. Once downloaded run 'npm install' in command line to install node modules used to run the project.
 
-### `npm test`
+## How to use the project:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* The directory is split between the main public and src folder. The public folder holds all the card images. The src folder holds the App.js file and the children   Components
+* Once downloaded the files can be viewed in your preferred code editor
+* The App.js files is where all the methods and states are set. The Components folder is where all the elements of the game are set up.
+* Use 'npm start' in command line to run the project and start playing
 
-### `npm run build`
+## Project credits
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was developed by @shestine 
