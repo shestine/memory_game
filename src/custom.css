@@ -1,0 +1,54 @@
+/*--------BOARD----------*/
+
+body {
+  /*adds background colour and width to main page*/
+  width: 100%;
+  background-image: linear-gradient(#543864, #8b4367);
+}
+  
+.board {
+  /*centers board to the centre of the page*/
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+  /*--------CARD----------*/
+
+.flip-container {
+  /*sets how far out the card flips, puts them in line and sets the background color*/
+  perspective: 700px;
+  display: inline-block;
+  background: black;
+  margin-right: 5px;
+}
+  
+.flip-container.flipped .flipper {
+   /*rotates the div to show the front/back of the card*/
+  transform: rotateY(180deg);
+}
+  
+.flipper {
+  /*sets how fast div flips*/
+  transition: 0.4s;
+  transform-style: preserve-3d;
+}
+  
+.front,
+.back {
+  /*hides rotation of the image*/
+  backface-visibility: hidden;
+  position: absolute;
+}
+  
+.front {
+  /*rotates the img to show the full size and proportions*/
+  transform: rotateY(180deg);
+}
+
+  /*--------NAVBAR------------*/
+
+.helpIcon {
+  /*sets size of help icon*/
+  width: 25px;
+  margin-top: 5px;
+}
